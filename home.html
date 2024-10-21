@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        Petshop
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0%;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-image: url('https://images.unsplash.com/photo-1576201836106-db1758fd1c97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            
+        }
+
+        .screen {
+            height: 100%;
+            width: 100%;
+            
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .topnav {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            background-color: rgb(73, 25, 21);
+            height: 70px;
+            border: 2px solid black;
+        }
+
+        .topnav a {
+
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .topnav-right {
+            float: right;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 180px 8px;
+            -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+            cursor: pointer;
+        }
+
+
+        .button1 {
+
+            background-color: transparent;
+            color: white;
+            box-shadow: 5px;
+            font-size: large;
+        }
+
+        .button1:hover {
+            background-color: thistle;
+            opacity: .5;
+            color: rgb(189, 246, 44);
+        }
+
+        .button2 {
+            background-color: transparent;
+            color: white;
+            box-shadow: 5px;
+            font-size: large;
+        }
+
+        .button2:hover {
+            opacity: .5;
+            background-color: thistle;
+            color: rgb(189, 246, 44);
+        }
+
+        .button3 {
+            background-color: transparent;
+            color: white;
+            box-shadow: 5px;
+            font-size: large;
+        }
+
+        .button3:hover {
+            opacity: .5;
+            background-color: thistle;
+            color:  rgb(189, 246, 44);
+        }
+
+        .button4 {
+
+            background-color: transparent;
+            color: white;
+            box-shadow: 5px;
+            font-size: large;
+        }
+
+        .button4:hover {
+            opacity: .5;
+            background-color:  thistle;
+            color: rgb(189, 246, 44);
+        }
+
+        .button5 {
+            background-color: transparent;
+            color: white;
+            box-shadow: 5px;
+            font-size: large;
+        }
+
+        .button5:hover {
+            opacity: .5;
+            background-color: thistle;
+            color: rgb(189, 246, 44);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a class="active" href="home.html"><img src="ic_add_pet.png"></a>
+        <a href="home.html">pets shop</a>
+        <div class="topnav-right">
+            <a href="logout.php">logout</a>
+        </div>
+    </div>
+
+
+
+    <div class="screen">
+        <form>
+
+            <button class="button button1" type="submit" formaction="animals.php">animals</button>
+            <button class="button button2" type="submit" formaction="birds.php">Birds</button>
+            <button class="button button3" type="submit" formaction="petproducts.php">products</button>
+            <button class="button button4" type="submit" formaction="sales.php">salesdetails</button>
+            <button class="button button5" type="submit" formaction="customer.php">customer</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
